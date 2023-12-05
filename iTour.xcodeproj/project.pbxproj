@@ -11,9 +11,9 @@
 		DC36C6CB2AF7FB7400370B77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC36C6CA2AF7FB7400370B77 /* ContentView.swift */; };
 		DC36C6CD2AF7FB7600370B77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC36C6CC2AF7FB7600370B77 /* Assets.xcassets */; };
 		DC36C6D02AF7FB7600370B77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC36C6CF2AF7FB7600370B77 /* Preview Assets.xcassets */; };
-		DC4A4CA82B1665F60085CC37 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A4CA72B1665F60085CC37 /* Destination.swift */; };
-		DC4A4CAA2B17CCB90085CC37 /* EditDestinationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A4CA92B17CCB90085CC37 /* EditDestinationView.swift */; };
-		DC4A4CAC2B17E12F0085CC37 /* DestinationListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A4CAB2B17E12F0085CC37 /* DestinationListingView.swift */; };
+		DC4A4CA82B1665F60085CC37 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A4CA72B1665F60085CC37 /* Book.swift */; };
+		DC4A4CAA2B17CCB90085CC37 /* EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A4CA92B17CCB90085CC37 /* EditBookView.swift */; };
+		DC4A4CAC2B17E12F0085CC37 /* BookListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A4CAB2B17E12F0085CC37 /* BookListingView.swift */; };
 		DC4A4CAE2B17F2B00085CC37 /* Sight.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A4CAD2B17F2B00085CC37 /* Sight.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,9 +23,9 @@
 		DC36C6CA2AF7FB7400370B77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DC36C6CC2AF7FB7600370B77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC36C6CF2AF7FB7600370B77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DC4A4CA72B1665F60085CC37 /* Destination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Destination.swift; sourceTree = "<group>"; };
-		DC4A4CA92B17CCB90085CC37 /* EditDestinationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDestinationView.swift; sourceTree = "<group>"; };
-		DC4A4CAB2B17E12F0085CC37 /* DestinationListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationListingView.swift; sourceTree = "<group>"; };
+		DC4A4CA72B1665F60085CC37 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		DC4A4CA92B17CCB90085CC37 /* EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBookView.swift; sourceTree = "<group>"; };
+		DC4A4CAB2B17E12F0085CC37 /* BookListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListingView.swift; sourceTree = "<group>"; };
 		DC4A4CAD2B17F2B00085CC37 /* Sight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sight.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,10 +61,10 @@
 			children = (
 				DC36C6C82AF7FB7400370B77 /* iTourApp.swift */,
 				DC36C6CA2AF7FB7400370B77 /* ContentView.swift */,
-				DC4A4CAB2B17E12F0085CC37 /* DestinationListingView.swift */,
+				DC4A4CAB2B17E12F0085CC37 /* BookListingView.swift */,
 				DC4A4CAD2B17F2B00085CC37 /* Sight.swift */,
-				DC4A4CA92B17CCB90085CC37 /* EditDestinationView.swift */,
-				DC4A4CA72B1665F60085CC37 /* Destination.swift */,
+				DC4A4CA92B17CCB90085CC37 /* EditBookView.swift */,
+				DC4A4CA72B1665F60085CC37 /* Book.swift */,
 				DC36C6CC2AF7FB7600370B77 /* Assets.xcassets */,
 				DC36C6CE2AF7FB7600370B77 /* Preview Content */,
 			);
@@ -149,12 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC4A4CA82B1665F60085CC37 /* Destination.swift in Sources */,
+				DC4A4CA82B1665F60085CC37 /* Book.swift in Sources */,
 				DC36C6CB2AF7FB7400370B77 /* ContentView.swift in Sources */,
 				DC36C6C92AF7FB7400370B77 /* iTourApp.swift in Sources */,
 				DC4A4CAE2B17F2B00085CC37 /* Sight.swift in Sources */,
-				DC4A4CAA2B17CCB90085CC37 /* EditDestinationView.swift in Sources */,
-				DC4A4CAC2B17E12F0085CC37 /* DestinationListingView.swift in Sources */,
+				DC4A4CAA2B17CCB90085CC37 /* EditBookView.swift in Sources */,
+				DC4A4CAC2B17E12F0085CC37 /* BookListingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

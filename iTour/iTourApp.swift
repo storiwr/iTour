@@ -14,6 +14,6 @@ struct iTourApp: App {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(for: Destination.self) //step 3 in swift data adding
+        .modelContainer(for: Book.self) //step 3 in swift data adding
     }
 }
