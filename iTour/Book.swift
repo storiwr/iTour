@@ -1,5 +1,5 @@
 //
-//  Destination.swift
+//  Book.swift
 //  iTour
 // A class used to define data model for each destination a user adds. Uses class because it lets it pass data around app.
 //  Created by Stephen on 11/28/23.
